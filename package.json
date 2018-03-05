@@ -1,0 +1,27 @@
+{
+  "name": "dir-abs-path",
+  "version": "1.0.0",
+  "description": "Get absolute paths for files in given directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/dir-abs-path.git"
+  },
+  "keywords": [
+    "absolute-path",
+    "directory"
+  ],
+  "author": "Emmanuel O.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/dir-abs-path/issues"
+  },
+  "homepage": "https://github.com/Balou9/dir-abs-path/blob/master/readme",
+  "dependencies": {
+    "get-abs-path": "^1.0.2",
+    "tape": "^4.9.0"
+  }
+}
