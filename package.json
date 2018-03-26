@@ -1,6 +1,6 @@
 {
   "name": "dir-abs-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get absolute paths for files in given directory",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Balou9/dir-abs-path/blob/master/readme",
   "dependencies": {
-    "get-abs-path": "^1.0.2",
+    "get-abs-path": "^1.1.0",
     "tape": "^4.9.0"
   }
 }
