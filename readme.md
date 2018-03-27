@@ -19,7 +19,6 @@ npm install --save dir-abs-path
 ## Usage
 
 ``` js
-var fs = require('fs')
 var dirAbsPath = require('./index.js')
 var dir = process.cwd() || 'C:/Users/'
 

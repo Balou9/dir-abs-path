@@ -1,10 +1,11 @@
 var tape = require('tape')
 var dirAbsPath = require('./index.js')
 
-tape('Output is an array', function (t) {
+tape('Output', function (t) {
   dirAbsPath(process.cwd(), function (err, data) {
     if (err) throw t.end(err)
     t.ok(data, 'is true')
+    t.ok(typeof data, 'object', 'is object')
     t.end()
   })
 })

@@ -1,6 +1,5 @@
-var fs = require('fs')
 var dirAbsPath = require('./index.js')
-var dir = process.cwd() || 'C:/Users/'
+var dir = process.cwd() || 'C:/Users/Balou/gitrepos'
 
 dirAbsPath(dir, function (err, data) {
   if (err) throw err
